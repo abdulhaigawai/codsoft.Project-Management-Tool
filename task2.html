@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Management Tool</title>
+  <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+  <h1>Project Management Tool</h1>
+  <div class="container">
+    <div class="form-section">
+      <h2>Create Project</h2>
+      <form id="projectForm">
+        <input type="text" id="projectName" placeholder="Project Name" required>
+        <textarea id="projectDescription" placeholder="Project Description"></textarea>
+        <input type="date" id="projectDeadline" required>
+        <button type="submit">Add Project</button>
+      </form>
+    </div>
+
+    <div class="project-section">
+      <h2>Projects</h2>
+      <ul id="projectList"></ul>
+    </div>
+  </div>
+
+  <script src="task2.js"></script>
+</body>
+</html>
